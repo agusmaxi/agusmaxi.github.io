@@ -18,7 +18,8 @@
         <div class="row align-items-end">
             <div class="col">
                 <h1 class="uppercase">Agus+Maxi</h1>
-                <h2 class="uppercase poppins__light date">21.Noviembre.21</h2>
+                <h2 class="uppercase poppins__light">21.Noviembre.21</h2>
+                <h2 class="uppercase poppins__light" id="date"></h2>
             </div>
         </div>
     </div>
@@ -30,7 +31,7 @@
                 <h2 class="title">Ceremonia</h2>
                 <p class="subtitle">Te esperamos a las 19hs. con un cocktail de bienvenida</p>
                 <a href="https://g.page/bodega-lagarde?share">
-                    <div class="btn btn-light btn-lg link">Cómo llegar</div>
+                    <div class="btn btn-light btn-lg btn-info link">Cómo llegar</div>
                 </a>
                 <p><small class="text-muted">*Consultar por las combis para poder beber tranquilo</small></p>
             </div>
@@ -39,18 +40,16 @@
                 <h2 class="title">Bodega</h2>
                 <p class="subtitle">Bodega Lagarde</p>
                 <a href="https://www.lagarde.com.ar/">
-                    <div class="btn btn-light btn-lg link">Conocela</div>
+                    <div class="btn btn-light btn-lg btn-info link">Conocela</div>
                 </a>
                 <p class="invisible"><small class="text-muted">*Recomendamos usar zapatos con taco cómodo, y llevar
                         abrigo. En Mendoza, en la finca, a la noche refresca.</small></p>
             </div>
             <div class="col-12 col-md-4">
-                <img class="icon" src="./images/perchaa.png" alt="dresscode">
+                <img class="icon" src="./images/perchadoble.png" alt="dresscode">
                 <h2 class="title">Dress Code</h2>
                 <p class="subtitle">Semi Formal</p>
-                <a href="#">
-                    <div class="btn btn-light btn-lg link">Ideas</div>
-                </a>
+                <div class="btn btn-light btn-lg btn-info link invisible">Cómo llegar</div>
                 <p><small class="text-muted">*Recomendamos usar zapatos con taco cómodo, y llevar abrigo. En Mendoza, en
                         la finca, a la noche refresca.</small></p>
             </div>
@@ -74,26 +73,25 @@
         <div class="row align-items-center">
             <div class="col">
                 <h2 class="title">Recomendaciones</h2>
-                <p class="subtitle">Contamos con una variedad de servicios para garantizar tu bienestar</p>
             </div>
         </div>
         <div class="row align-items-start">
             <div class="col-12 col-md-4">
                 <img class="icon" src="./images/avion.png" alt="dresscode">
                 <h2 class="uppercase poppins">Cómo llegar</h2>
-                <p class="poppins__light">En avión: Jetsmart o AR</p>
-                <p class="poppins__light">En auto: Son 12hs. desde BA</p>
+                <p class="poppins__light">En avión: Jetsmart o Aerolíneas Argentinas</p>
+                <p class="poppins__light">En auto: Son 12hs. desde Buenos Aires</p>
             </div>
             <div class="col-12 col-md-4">
                 <img class="icon" src="./images/dormir.png" alt="dresscode">
                 <h2 class="uppercase poppins">Dónde hospedarse</h2>
                 <p class="poppins__light">Zona Centro: Apto sin auto, cerca de todo! Despegar tiene opciones en pesos y
                     cuotas.</p>
-                <p class="poppins__light">Luján de Cuyo: Casas airbnb, sólo con auto.</p>
+                <p class="poppins__light">Luján de Cuyo: Casas en alquiler, Airbnb (Sólo si estás con auto).</p>
             </div>
             <div class="col-12 col-md-4">
-                <img class="icon" src="./images/comida.png" alt="dresscode">
-                <h2 class="uppercase">Imperdibles</h2>
+                <img class="icon" src="./images/platodecomida.png" alt="dresscode">
+                <h2 class="uppercase poppins">Imperdibles</h2>
                 <p class="poppins__light">En Mendoza hay opciones para todos los gustos</p>
             </div>
         </div>
@@ -103,17 +101,18 @@
         <div class="row">
             <div class="col">
                 <h2 class="title">La previa</h2>
-                <p class="subtitle">Llegás antes? Pódes sumarte a estos planes</p>
+                <p class="subtitle">Llegás antes? Pódes sumarte a estos planes:</p>
+                <p><small class="text-muted">*Estas propuestas son a modo de ejemplo</small></p>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 uppercase">
                 <div class="col">
-                    <img class="icon" src="./images/motana.png" alt="dresscode">
+                    <img class="icon" src="./images/motanayrio.png" alt="dresscode">
                     <h4 class="poppins uppercase bold">Martes</h4>
                     <p class="poppins__light">Valle de Uco</p>
                     <img src="#" alt="" srcset="">
                 </div>
                 <div class="col">
-                    <img class="icon" src="./images/bicicleta.png" alt="dresscode">
+                    <img class="icon" src="./images/bicycle.png" alt="dresscode">
                     <h4 class="poppins uppercase bold">Miércoles</h4>
                     <p class="poppins__light">Bodegas en bici</p>
                     <img src="#" alt="" srcset="">
@@ -136,7 +135,7 @@
                     <p>Spa en Cacheuta</p>
                 </div>
                 <div class="col">
-                    <img class="icon" src="./images/eye.png" alt="dresscode">
+                    <img class="icon last-icon" src="./images/eye.png" alt="dresscode">
                     <h4 class="poppins uppercase bold">Domingo</h4>
                     <p class="poppins__light">Make Up y peinado</p>
                 </div>
@@ -149,9 +148,16 @@
             <div class="col-12 col-md-6 col-6-narrow">
                 <img class="icon" src="./images/digital-camera.png" alt="dresscode">
                 <p class="poppins">Compartamos fotos y videos en wedshoots</p>
+                <a target="_blank"
+                    href="https://play.google.com/store/apps/details?id=net.bodas.android.wedshoots&hl=es_AR&gl=US">
+                    <div class="btn btn-cbu btn-lg">Descargá la app!</div>
+                </a>
                 <img class="icon" src="./images/regalos.png" alt="dresscode">
-                <p class="bold poppins">Si querés hacernos un regalo, podés ayudarnos con la luna de miel</p>
-                <p class="uppercase">Datos del CBU</p>
+                <p class="bold poppins">Nos vamos a Tulum! Si querés ser nuestro sponsor oficial:</p>
+                <a target="_blank"
+                    href="https://docs.google.com/forms/d/11DvVpwg3aI1bi2kk536_RuohxgMsQ7fYZocOzJD-JWA/viewform?edit_requested=true">
+                    <div class="btn btn-cbu btn-lg">Datos bancarios</div>
+                </a>
             </div>
             <div class="col-12 col-md-6 col-6-img">
                 <img src="./images/contact-page.jpeg" alt="" srcset="">
@@ -163,6 +169,7 @@
 
     </footer>
 
+    <script src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
