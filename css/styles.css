@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+.container {
+    max-width: 100%;
+}
+
+.row {
+    height: max-content;
+    min-height: 50vh;
+}
+
+.container-main {
+    background-image: url('../images/bg-main.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #efeae5;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-main h1 {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.container-main h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.poppins__light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.green__text {
+    color: #929480;
+}
+
+.link {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.icon {
+    width: 15%;
+    height: auto;
+    filter: invert(0%) sepia(100%) saturate(19%) hue-rotate(150deg) brightness(50%) contrast(102%);
+}
+
+/* Info section */
+
+.container__info {
+    background-color: #F2EBD9;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.container__info h2 {
+    font-size: 35px;
+}
+
+
+
+/* End Info section */
+
+
+/* RSVP section */
+
+.container__rsvp {
+    background-color: #FFFFFF;
+}
+
+.container__rsvp h2 {
+    color: #929480;
+}
+
+.container__rsvp .btn-rsvp {
+    border-radius: 10px;
+    background-color: #F2EBD9;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* End RSVP section*/
+
+/* Reccomendations section */
+
+.container__reccomendations {
+    background-color: #929480;
+    color: #FFFFFF;
+}
+
+.container__reccomendations .align-items-center {
+    min-height: 25vh;
+}
+
+.container__reccomendations .align-items-start {
+    min-height: 35vh;
+}
+
+.container__reccomendations .icon {
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+/* End reccomendations section*/
+
+.container__activities {
+    background-color: #FFFFFF;
+    color: #929480;
+    padding-top: 30px;
+    min-height: 600px;
+}
+
+.container__activities .icon {
+    width: 20%;
+}
+
+.container__honeymoon {
+    background-color: #F2EBD9;
+}
+
+.container__honeymoon .icon {
+    width: 10%;
+}
+
+.col-6-narrow {
+    padding: 0 5%;
+}
+
+.col-6-img {
+    height: 50vh;
+    padding: 3%;
+
+    background-color: #929480;
+
+    display: flex;
+}
+
+.col-6-img img {
+    max-width: 550px;
+    max-height: 90%;
+}
+
+img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
