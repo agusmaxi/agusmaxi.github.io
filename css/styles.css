@@ -43,7 +43,7 @@
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 
@@ -76,12 +76,17 @@
     width: 15%;
     height: auto;
     filter: invert(0%) sepia(100%) saturate(19%) hue-rotate(150deg) brightness(50%) contrast(102%);
+    color: black;
 }
 
 /* Info section */
 
 .container__info {
     background-color: #F2EBD9;
+}
+
+.container__info .subtitle {
+    margin-bottom: 0;
 }
 
 .uppercase {
@@ -94,6 +99,8 @@
 
 .container__info h2 {
     font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -128,16 +135,17 @@
 }
 
 .container__reccomendations .align-items-center {
-    min-height: 25vh;
+    min-height: 20vh;
 }
 
 .container__reccomendations .align-items-start {
-    min-height: 35vh;
+    min-height: 40vh;
 }
 
 .container__reccomendations .icon {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 25%;
+
 }
 
 /* End reccomendations section*/
@@ -151,6 +159,11 @@
 
 .container__activities .icon {
     width: 20%;
+    margin-bottom: 10px;
+}
+
+.container__activities .last-icon {
+    margin-bottom: 45px;
 }
 
 .container__honeymoon {
@@ -162,7 +175,19 @@
 }
 
 .col-6-narrow {
+    display: flex;
+    flex-direction: column;
+
     padding: 0 5%;
+    margin-top: 15px;
+}
+
+.col-6-narrow .icon {
+    margin-bottom: 10px;
+}
+
+.col-6-narrow .poppins {
+    margin-bottom: 0;
 }
 
 .col-6-img {
@@ -189,4 +214,62 @@ footer {
     width: 100%;
     height: 50px;
     background-color: black;
+}
+
+.btn-cbu {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-info {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .container-main {
+        background-position: initial;
+        background-size: auto;
+        min-height: 700px;
+        background-color: #929480;
+        align-items: flex-end;
+    }
+
+    .container-main .row {
+        min-height: fit-content;
+    }
+
+    .container-main h1 {
+        font-size: 60px;
+    }
+
+    .container-main h2 {
+        font-size: 25px;
+    }
+
+    .row {
+        padding-top: 40px;
+    }
+
+    .container__info h2 {
+        font-size: 30px;
+    }
+
+    .container__reccomendations .title {
+        font-size: 28px;
+    }
+
+    .container__reccomendations .col-12 {
+        padding-bottom: 20px;
+    }
+
+    .container__activities .row-cols-1 {
+        padding-bottom: 20px∫;
+    }
 }
