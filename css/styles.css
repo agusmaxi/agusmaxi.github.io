@@ -87,6 +87,10 @@
     background-color: #F2EBD9;
 }
 
+.container__info .row {
+    padding-top: 25px;
+}
+
 .container__info .subtitle {
     margin-bottom: 0;
 }
@@ -172,6 +176,11 @@
     background-color: #F2EBD9;
 }
 
+.container__honeymoon .row,
+.container__honeymoon .row .col-6-img {
+    min-height: 65vh;
+}
+
 .container__honeymoon .icon {
     width: 10%;
 }
@@ -193,7 +202,7 @@
 }
 
 .col-6-img {
-    height: 50vh;
+    height: 65vh;
     padding: 3%;
 
     background-color: #929480;
